@@ -1,0 +1,21 @@
+log_level = "debug"
+
+[server]
+config = "/home/jorge/.config/OpenRGB/"
+profile = "white.orp"
+port = 6744
+
+#[log_level]
+
+
+#[[devices]]
+#device = "0"
+#color = ["FFFFFF"]
+#
+#[[devices]]
+#device = "1"
+#color = ["00FF00"]
+#
+#[[devices]]
+#device = "2"
+#color = ["FF0000"]

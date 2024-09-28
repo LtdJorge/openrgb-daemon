@@ -1,0 +1,12 @@
+[Unit]
+Description=Lightweight daemon wrapping OpenRGB
+After=network.target
+
+[Service]
+Type=simple
+ExecStart={{ binary_path }}
+TimeoutStopSec=15s
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
