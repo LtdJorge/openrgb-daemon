@@ -23,9 +23,7 @@ use tokio_stream::{wrappers::LinesStream, StreamExt};
 use tokio_util::{sync::CancellationToken, task::TaskTracker};
 use tracing::metadata::LevelFilter;
 use tracing::{error, info, instrument, Level};
-use tracing_subscriber::layer::SubscriberExt;
-use tracing_subscriber::util::SubscriberInitExt;
-use tracing_subscriber::Layer;
+use tracing_subscriber::{layer::SubscriberExt, util::SubscriberInitExt, Layer};
 
 fn main() -> anyhow::Result<()> {
     let Arguments {
