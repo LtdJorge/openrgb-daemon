@@ -4,6 +4,7 @@ description = "Minimalistic and lightweight service to wrap OpenRGB server as a 
 version = "0.1.0"
 edition = "2021"
 license = "MIT OR Apache-2.0"
+homepage = "https://github.com/LtdJorge/openrgb-daemon"
 
 [dependencies]
 anyhow = "1.0.89"
